@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="home" />
+
+    <item
+        android:id="@+id/sentEmail"
+        android:icon="@drawable/ic_baseline_check_circle_outline_24"
+        android:title="Donors Emailed" />
+
+    <item
+        android:id="@+id/compatible"
+        android:title="compatible" />
+
+    <item android:title="Blood Group">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/a_plus"
+                    android:title="A+" />
+                <item
+                    android:id="@+id/a_neg"
+                    android:title="A-" />
+                <item
+                    android:id="@+id/b_plus"
+                    android:title="B+" />
+                <item
+                    android:id="@+id/b_neg"
+                    android:title="B-" />
+                <item
+                    android:id="@+id/ab_plus"
+                    android:title="AB+" />
+                <item
+                    android:id="@+id/ab_minus"
+                    android:title="AB-" />
+                <item
+                    android:id="@+id/o_plus"
+                    android:title="O+" />
+                <item
+                    android:id="@+id/o_neg"
+                    android:title="O-" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Actions">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/profile"
+                    android:title="Profile" />
+                <item
+                    android:id="@+id/notifications"
+                    android:title="About"
+                    android:visible="false" />
+
+                <item
+                    android:id="@+id/Logout"
+                    android:title="Logout" />
+
+            </group>
+        </menu>
+    </item>
+
+
+
+
+</menu>
